@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Ajax
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+    <body class="container">
+        <br/>
+        <form class="form form-control" method="POST">
+            <label>Name</label>
+            <input type="text" class="form-control" id="name">
+
+            <label>Code</label>
+            <input type="text" class="form-control" id="code">
+
+            <label>Sub Category Id</label>
+            <input type="number" class="form-control" id="sub_category_id">
+
+            <label>Step Size</label>
+            <input type="number" class="form-control" id="step_size">
+
+            <label>Purchase Price</label>
+            <input type="number" class="form-control" id="purchase_price">
+            <br/>
+            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+        </form>
+        <br />
+       <table class="table">
+           <thead>
+               <tr>
+                   <th>product_id</th>
+                   <th>code</th>
+                   <th>product_name</th>
+                   <th>carton_capacity</th>
+                   <th>max_order_qty</th>
+                   <th>min_order_qty</th>
+                   <th>movement_tenure</th>
+                   <th>sub_category_name</th>
+
+               </tr>
+           </thead>
+           <tbody id="tbdy">
+           </tbody>
+       </table>
+
+
+    </body>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
+
+<!--
+avg_gp: ""
+avg_trade_price: ""
+barcode: "4564"
+carton_capacity: "1.00"
+code: "4564"
+cost_tenure: "0"
+gp: ""
+ledger_url: "<a href='/inventory_journal/product_ledger_all/#ledger_table=(ufd_product_id~12133|product_id~19)' class='minipreview' title='View Ledger'></a>"
+max_order_qty: "0.00"
+min_order_qty: "0.00"
+movement_tenure: "0"
+net_gp: ""
+ordered_qty: "0.00"
+product_edit_url: "<a href='/product/#product_table_select=19/edit' class='gridedit edit-link' title='Edit Product'></a>"
+product_id: "19"
+product_name: "12133"
+product_sale_discount: ""
+product_view_url: "<a href='/product/#product_table_select=19' class='grid_preview' title='View Product'></a>"
+promotional_discount: ""
+purchase_price: ""
+sale_price: ""
+stock_in_hand: ""
+sub_category_2_name: ""
+sub_category_3_name: ""
+sub_category_4_name: ""
+sub_category_name: "Ordinary Item"
+tax_1: "0.00"
+unit_of_measurement: ""
+vendor_name: ""
+-->
